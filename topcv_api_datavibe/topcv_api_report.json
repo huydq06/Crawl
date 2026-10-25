@@ -1,0 +1,176 @@
+{
+  "ghi_chu": "Bản tóm tắt để đọc nhanh. Phản hồi API nguyên bản nằm trong topcv_api_raw_responses.json.",
+  "ket_qua_api": {
+    "api_paid_jobs": {
+      "status": "success",
+      "message": "Thành công",
+      "so_job_tra_ve": 3034
+    },
+    "count_job_by_option": {
+      "status": "success",
+      "tong_job_theo_api": 44733,
+      "url_tim_kiem": "https://www.topcv.vn/tim-viec-lam-moi-nhat"
+    },
+    "get_option_filter": {
+      "nhom_bo_loc": {
+        "cities": {
+          "so_luong_lua_chon": 5,
+          "lua_chon_mau": [
+            [
+              "0",
+              "Ngẫu Nhiên"
+            ],
+            [
+              "1",
+              "Hà Nội"
+            ],
+            [
+              "2",
+              "Thành phố Hồ Chí Minh  (cũ)"
+            ],
+            [
+              "41",
+              "Miền Bắc"
+            ],
+            [
+              "42",
+              "Miền Nam"
+            ]
+          ],
+          "mac_dinh": 0
+        },
+        "salary": {
+          "so_luong_lua_chon": 9,
+          "lua_chon_mau": [
+            "Tất cả",
+            "Dưới 10 triệu",
+            "Từ 10-15 triệu",
+            "Từ 15-20 triệu",
+            "Từ 20-25 triệu",
+            "Từ 25-30 triệu",
+            "Từ 30-50 triệu",
+            "Trên 50 triệu"
+          ],
+          "mac_dinh": 0
+        },
+        "experience": {
+          "so_luong_lua_chon": 8,
+          "lua_chon_mau": [
+            "Tất cả",
+            "Chưa có kinh nghiệm",
+            "1 năm trở xuống",
+            "1 năm",
+            "2 năm",
+            "3 năm",
+            "Từ 4-5 năm",
+            "Trên 5 năm"
+          ],
+          "mac_dinh": 0
+        }
+      }
+    }
+  },
+  "cac_truong_job": [
+    {
+      "ten_truong": "category_ids",
+      "y_nghia": "Mã ngành nghề được gắn cho tin"
+    },
+    {
+      "ten_truong": "city_ids",
+      "y_nghia": "Mã địa điểm làm việc"
+    },
+    {
+      "ten_truong": "company",
+      "y_nghia": "Thông tin công ty (thường gồm tên, logo, URL, lĩnh vực)"
+    },
+    {
+      "ten_truong": "exp_years_from",
+      "y_nghia": "Số năm kinh nghiệm tối thiểu"
+    },
+    {
+      "ten_truong": "exp_years_to",
+      "y_nghia": "Số năm kinh nghiệm tối đa; 0 có thể mang nghĩa không giới hạn/không khai báo"
+    },
+    {
+      "ten_truong": "id",
+      "y_nghia": "Mã tin tuyển dụng trên TopCV"
+    },
+    {
+      "ten_truong": "is_rescure",
+      "y_nghia": "Cờ nội bộ của TopCV; ý nghĩa cụ thể chưa rõ từ phản hồi"
+    },
+    {
+      "ten_truong": "percentApply",
+      "y_nghia": "Giá trị phần trăm/điểm ứng tuyển do API cung cấp"
+    },
+    {
+      "ten_truong": "position_id",
+      "y_nghia": "Mã cấp bậc/vị trí"
+    },
+    {
+      "ten_truong": "salary",
+      "y_nghia": "Mức lương dạng chữ để hiển thị"
+    },
+    {
+      "ten_truong": "salary_currency",
+      "y_nghia": "Đơn vị tiền lương"
+    },
+    {
+      "ten_truong": "salary_from",
+      "y_nghia": "Mức lương tối thiểu dạng số"
+    },
+    {
+      "ten_truong": "salary_to",
+      "y_nghia": "Mức lương tối đa dạng số"
+    },
+    {
+      "ten_truong": "title",
+      "y_nghia": "Tiêu đề công việc"
+    },
+    {
+      "ten_truong": "title_search",
+      "y_nghia": "Tiêu đề đã chuẩn hóa để tìm kiếm"
+    },
+    {
+      "ten_truong": "type",
+      "y_nghia": "Mã loại tin theo hệ thống TopCV"
+    },
+    {
+      "ten_truong": "url",
+      "y_nghia": "Link đến trang chi tiết tin"
+    }
+  ],
+  "job_mau": {
+    "id": 1164798,
+    "category_ids": [
+      10028,
+      10023,
+      10014
+    ],
+    "position_id": 1,
+    "city_ids": [
+      1,
+      20569
+    ],
+    "salary_from": 8000000,
+    "salary_to": 15000000,
+    "salary_currency": "VND",
+    "exp_years_from": 2,
+    "exp_years_to": 0,
+    "type": 1,
+    "company": {
+      "name": "Viện nghiên cứu và phát triển Sản phẩm thiên nhiên",
+      "logo_url": "https://cdn-new.topcv.vn/unsafe/300x/https://static.topcv.vn/company_logos/68ca51c021c131758089664.jpg",
+      "url": "https://www.topcv.vn/cong-ty/vien-nghien-cuu-va-phat-trien-san-pham-thien-nhien/35205.html",
+      "fields": [
+        6
+      ]
+    },
+    "title": "Nhân Viên Kế Toán Nội Bộ",
+    "title_search": "nhan vien ke toan noi bo",
+    "salary": "8 - 15 triệu",
+    "url": "https://www.topcv.vn/viec-lam/nhan-vien-ke-toan-noi-bo/1164798.html?ta_source=SuggestJobListInKeywordBox_LinkDetail",
+    "percentApply": 1,
+    "is_rescure": true
+  }
+}
